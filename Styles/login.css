@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url(../Assets/city-miami-florida-wallpaper-preview.jpg);
+}
+nav{
+    
+    display: flex;
+    background-color: #FFFFFF;
+    gap: 50px;
+    justify-items: center;
+    align-items: center;
+    width: 1366px;
+    height: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: large;
+    font-weight: bold;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 100px;
+    padding-top: 15px;
+}
+.bu{
+    width: 138px;
+    height: 40px;
+    top: 16px;
+    left: 1143px;
+    border-radius: 5px;
+    background: #6237A0;
+    color: #FFFFFF;
+    font-size: large;
+    margin-bottom: 8px;
+
+}
+.seclog{
+    display: flex;
+}
+.div{
+    /* background-color: #6237A0; */
+    width: 40%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    margin-left: 6vw;
+    border-radius: 2px solid purple;
+    color: #FFFFFF;
+}
+.foh2{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.fop{
+    font-size: 20px;
+}
+form{
+    margin-left: 90px;
+    margin-top: 100px;
+    background-color: antiquewhite;
+    width: 40%;
+    
+}
+.input{
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+/* .input{
+   display: grid;
+   place-items: center;
+} */
+
+h1{
+    margin-top: 40px;
+    color: rgb(199, 84, 214);
+    font-size: 5rem;
+    text-align: center;
+}
+.div1in{
+    width: 25vw;
+    height: 6vh;
+    background-color: azure;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.button{
+    width: 15vw;
+    height: 5vh;
+    background-color: #6237A0;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+.x{
+    margin-bottom: 20px;
+}
+input{
+    border-radius: 10px;
+    padding-left: 5px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #14022c;
+    color: #FFFFFF;
+    width: 1349px;
+}
+.fosec{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.fop{
+    width: 300px;
+    font-size: 20px;
+    
+}
+.fodi1{
+    margin: 40px;
+}
+.fodi2{
+    margin: 40px;
+    height: 400px;
+    width: 200px;
+    
+    
+
+}
+.fodi3{
+    margin: 40px;
+    height: 400px;
+    width: 300px;
+
+}
+.foul{
+    
+    display: flex;
+    height: 250px;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.foart{
+    margin-top: 85px;
+    font-size: 15px;
+}
+.ins{
+    height: 40px;
+    width: 200px;
+    border-width: 0px;
+    border-start-start-radius: 6px;
+    border-bottom-left-radius:  6px;
+    /* margin-left: 10px; */
+}
+.artbu{
+    height: 40px;
+    width: 65px;
+    margin-right: 30px;
+    color: #FFFFFF;
+    background-color: #3f074d;
+    border-width: 0px;
+    border-bottom-right-radius:  6px;
+    border-top-right-radius:  6px;
+}
+/* .email{
+    height: 0px;
+} */
+.di{
+    margin-top: 10px;
+}
+#aboutus{
+    margin: 40px;
+
+}
+#ourservices{
+    margin: 40px;
+}
+#contactus{
+    margin: 40px;
+}
+.fooh1{
+    font-size: 30px;
+}

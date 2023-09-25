@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.hs1{
+    background-color: #FFFFFF;
+    display: flex;
+    /* gap: 10vw; */
+    justify-content: space-between;
+    padding: 10px 100px;
+    width: 1349px;
+    height: 45px;
+}
+.t{
+    color: #003412;
+}
+.w{
+    width: 500px;
+}
+.hss1{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.button{
+    width: 138px;
+    height: 40px;
+    top: 16px;
+    left: 1143px;
+    border-radius: 5px;
+    background: #6237A0;
+    color: #FFFFFF;
+    font-size: large;
+    margin-bottom: 30px;
+}
+.hdiv{
+    margin-left: 100px;
+    display: flex;
+}
+.hss2{
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+nav{
+    
+    display: flex;
+    background-color: #28104E;
+    gap: 50px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5px;
+    width: 1349px;
+    height: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 100px;
+    padding-top: 15px;
+}
+.bu{
+    width: 138px;
+    height: 40px;
+    top: 16px;
+    left: 1143px;
+    border-radius: 5px;
+    background: #6237A0;
+    color: #FFFFFF;
+    font-size: large;
+    margin-bottom: 8px;
+    /* margin-right: 40px; */
+}
+.hero{
+    background-image: url(../Assets/ibom-air-airbus-a220.jpg);
+    /* background-repeat: no-repeat; */
+    width: 1349px;
+    height: 720px;
+    top: 128px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.sec1p{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sec1h{
+    text-align: center;
+    font-size: 80px;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #14022c;
+}
+.secd{
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+}
+.in{
+    height: 10vh;
+    border-width: 0px;
+    border-start-start-radius: 6px;
+    border-bottom-left-radius:  6px;
+    width: 300px;
+    padding-left: 20px;
+}
+.in1{
+    height: 10vh;
+    border-width: 0px;
+    width: 200px;
+    padding-left: 20px;
+}
+.bin{
+    width: 138px;
+    /* height: 40px; */
+    top: 16px;
+    left: 1143px;
+    /* border-radius: 5px; */
+    background: #6237A0;
+    color: #FFFFFF;
+    font-size: large;
+    margin-bottom: 8px;
+    height: 10vh;
+    border-width: 0px;
+
+    border-top-right-radius: 6px;
+    border-bottom-right-radius:  6px;
+}
+.sec2{
+    width: 300vw;
+    padding: 30px;
+}
+.sec{
+    display: flex;
+    padding: 20px;
+
+}
+.psec{
+    width: 100%; 
+    background-color: rgb(202, 145, 204); 
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.h1sec{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.x{
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    color: #6237A0;
+}
+.advert{
+    background-image: url(../Assets/summer-travel-2022-10-interesting-places-to-visit-at-akwa-ibom-3.jpg);
+    height: 800px;
+    width: 1349px;
+    display: flex;
+    align-items: last baseline ;
+    justify-items: space-between;
+}
+.asise2{
+    background-color: rgb(133, 23, 123);
+    opacity: 0.7;
+    width: 47vw;
+    margin-bottom: 90px;
+    margin-right: 30px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+.p{
+    color: #ffffff;
+    font-weight: bold;
+    margin: 5px;
+
+}
+.aside1{
+    width: 40vw;
+    font-size: 30px;
+    color: rgb(35, 10, 59);
+    margin-left: 40px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #14022c;
+    color: #FFFFFF;
+    width: 1349px;
+}
+.fosec{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.fop{
+    width: 200px;
+    
+}
+.fodi1{
+    margin: 40px;
+}
+.fodi2{
+    margin: 40px;
+    height: 400px;
+    width: 200px;
+    
+    
+
+}
+.fodi3{
+    margin: 40px;
+    height: 400px;
+    width: 300px;
+
+}
+.foul{
+    
+    display: flex;
+    height: 250px;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.foart{
+    margin-top: 85px;
+    font-size: 15px;
+}
+.ins{
+    height: 40px;
+    width: 200px;
+    border-width: 0px;
+    border-start-start-radius: 6px;
+    border-bottom-left-radius:  6px;
+    /* margin-left: 10px; */
+}
+.artbu{
+    height: 40px;
+    width: 65px;
+    margin-right: 30px;
+    color: #FFFFFF;
+    background-color: #3f074d;
+    border-width: 0px;
+    border-bottom-right-radius:  6px;
+    border-top-right-radius:  6px;
+}
+/* .email{
+    height: 0px;
+} */
+.di{
+    margin-top: 10px;
+}
+#aboutus{
+    margin: 40px;
+
+}
+#ourservices{
+    margin: 40px;
+}
+#contactus{
+    margin: 40px;
+}
