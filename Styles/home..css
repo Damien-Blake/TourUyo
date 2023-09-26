@@ -31,7 +31,7 @@
     top: 16px;
     left: 1143px;
     border-radius: 5px;
-    background: #6237A0;
+    background: #FFB347;
     color: #FFFFFF;
     font-size: large;
     margin-bottom: 30px;
@@ -77,7 +77,7 @@ a{
     top: 16px;
     left: 1143px;
     border-radius: 5px;
-    background: #6237A0;
+    background: #FFB347;
     color: #FFFFFF;
     font-size: large;
     margin-bottom: 8px;
@@ -85,6 +85,8 @@ a{
 }
 .hero{
     background-image: url(../Assets/ibom-air-airbus-a220.jpg);
+    background-color: #F05E16;
+    background-blend-mode: overlay;
     /* background-repeat: no-repeat; */
     width: 1349px;
     height: 720px;
@@ -95,16 +97,21 @@ a{
 }
 .sec1p{
     text-align: center;
-    font-size: 60px;
-    font-style: italic;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    /* font-style: italic; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+
 }
 .sec1h{
     text-align: center;
     font-size: 80px;
-    font-style: oblique;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #14022c;
+    /* font-style: oblique; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'poppins';
+    font-weight: normal;
+    color: #FFFFFF;
 }
 .secd{
     display: flex;
@@ -131,10 +138,11 @@ a{
     top: 16px;
     left: 1143px;
     /* border-radius: 5px; */
-    background: #6237A0;
+    background: #FFB347;
     color: #FFFFFF;
     font-size: large;
     margin-bottom: 8px;
+    cursor: pointer;
     height: 10vh;
     border-width: 0px;
 
@@ -152,12 +160,12 @@ a{
 }
 .psec{
     width: 100%; 
-    background-color: rgb(202, 145, 204); 
+    background-color: #FFB347; 
     padding: 10px;
     margin-bottom: 10px;
 }
 .h1sec{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     padding: 10px;
 }
@@ -165,7 +173,7 @@ a{
     margin-top: 50px;
     font-size: 50px;
     text-align: center;
-    color: #6237A0;
+    color: #F05E16;
 }
 .advert{
     background-image: url(../Assets/summer-travel-2022-10-interesting-places-to-visit-at-akwa-ibom-3.jpg);
@@ -176,7 +184,7 @@ a{
     justify-items: space-between;
 }
 .asise2{
-    background-color: rgb(133, 23, 123);
+    background-color: #F05E16;
     opacity: 0.7;
     width: 47vw;
     margin-bottom: 90px;
