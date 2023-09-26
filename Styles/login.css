@@ -4,11 +4,15 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 body{
     background: url(../Assets/city-miami-florida-wallpaper-preview.jpg);
+    background-color: #FF9800;
+    background-size: contain;
+    background-blend-mode: darken;
 }
+
 nav{
-    
     display: flex;
     background-color: #FFFFFF;
     gap: 50px;
@@ -34,10 +38,12 @@ a{
 .bu{
     width: 138px;
     height: 40px;
-    top: 16px;
+    top: 10px;
     left: 1143px;
-    border-radius: 5px;
-    background: #6237A0;
+    border-radius: 4px;
+    border: 0px solid black;
+    cursor: pointer;
+    background: #FF9800;
     color: #FFFFFF;
     font-size: large;
     margin-bottom: 8px;
@@ -47,7 +53,7 @@ a{
     display: flex;
 }
 .div{
-    /* background-color: #6237A0; */
+    /* background-color: #FF9800; */
     width: 40%;
     height: 200px;
     display: flex;
@@ -55,7 +61,7 @@ a{
     align-items: center;
     margin-top: 30vh;
     margin-left: 6vw;
-    border-radius: 2px solid purple;
+    border-radius: 2px solid #F05E16;
     color: #FFFFFF;
 }
 .foh2{
@@ -65,12 +71,22 @@ a{
 .fop{
     font-size: 20px;
 }
-form{
+formL{
     margin-left: 90px;
     margin-top: 100px;
-    background-color: antiquewhite;
+    border-radius: 5%;
+    background-color: #FFFFFF;
     width: 40%;
+    height: 30em;
     
+}
+formS{
+    margin-left: 90px;
+    margin-top: 100px;
+    border-radius: 5%;
+    background-color: #FFFFFF;
+    width: 40%;   
+    height: 40em; 
 }
 .input{
     margin-bottom: 40px;
@@ -83,8 +99,8 @@ form{
 
 h1{
     margin-top: 40px;
-    color: rgb(199, 84, 214);
-    font-size: 5rem;
+    color: #FF9800;
+    font-size: 3rem;
     text-align: center;
 }
 .div1in{
@@ -95,14 +111,23 @@ h1{
     border-radius: 10px;
     padding-left: 5px;
 }
+.div1in{
+    width: 25vw;
+    height: 6vh;
+    background-color: azure;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
 .button{
-    width: 15vw;
-    height: 5vh;
-    background-color: #6237A0;
+    width: 24em;
+    height: 3em;
+    background-color: #FF9800;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
     margin-bottom: 30px;
-    margin-left: 70px;
+    justify-content: center;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
 }
@@ -127,8 +152,9 @@ footer{
     justify-content: space-between;
 }
 .fop{
+    padding-top: 10px;
     width: 300px;
-    font-size: 20px;
+    font-size: 15px;
     
 }
 .fodi1{
@@ -149,7 +175,6 @@ footer{
 
 }
 .foul{
-    
     display: flex;
     height: 250px;
     align-items: center;
