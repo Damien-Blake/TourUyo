@@ -77,7 +77,8 @@ a{
     top: 16px;
     left: 1143px;
     border-radius: 5px;
-    background: #FFB347;
+    
+    background: #f08e0f;
     color: #FFFFFF;
     font-size: large;
     margin-bottom: 8px;
@@ -85,7 +86,7 @@ a{
 }
 .hero{
     background-image: url(../Assets/ibom-air-airbus-a220.jpg);
-    background-color: #F05E16;
+    background-color: #ac8a79;
     background-blend-mode: overlay;
     /* background-repeat: no-repeat; */
     width: 1349px;
@@ -111,7 +112,7 @@ a{
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     font-family: 'poppins';
     font-weight: normal;
-    color: #FFFFFF;
+    color: #ec600f;
 }
 .secd{
     display: flex;
@@ -138,7 +139,7 @@ a{
     top: 16px;
     left: 1143px;
     /* border-radius: 5px; */
-    background: #FFB347;
+    background: #e67812;
     color: #FFFFFF;
     font-size: large;
     margin-bottom: 8px;
@@ -152,6 +153,7 @@ a{
 .sec2{
     width: 300vw;
     padding: 30px;
+    text-align: center;
 }
 .sec{
     display: flex;
@@ -160,7 +162,8 @@ a{
 }
 .psec{
     width: 100%; 
-    background-color: #FFB347; 
+    background-color: #ac8a79;
+    background-blend-mode: overlay; 
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -284,4 +287,8 @@ footer{
 }
 #contactus{
     margin: 40px;
+}
+.blogh1{
+    margin: 20px;
+    padding: 30px;
 }
