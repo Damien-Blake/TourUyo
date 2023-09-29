@@ -7,12 +7,16 @@
 
 body{
     background: url(../Assets/city-miami-florida-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: #FF9800;
-    background-size: contain;
+    /* background-size: contain; */
     background-blend-mode: darken;
 }
 
 nav{
+    /* background-color: #000000; */
     display: flex;
     background-color: #FFFFFF;
     gap: 50px;
@@ -144,7 +148,7 @@ footer{
     justify-content: center;
     background-color: #14022c;
     color: #FFFFFF;
-    width: 1349px;
+    width: 1366px;
 }
 .fosec{
     display: flex;

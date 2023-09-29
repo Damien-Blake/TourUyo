@@ -88,7 +88,9 @@ a{
     background-image: url(../Assets/ibom-air-airbus-a220.jpg);
     background-color: #ac8a79;
     background-blend-mode: overlay;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 1349px;
     height: 720px;
     top: 128px;
