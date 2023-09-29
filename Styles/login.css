@@ -107,6 +107,12 @@ h1{
     font-size: 3rem;
     text-align: center;
 }
+h3{
+    margin-top: 40px;
+    color: #FF9800;
+    /* font-size: 3rem; */
+    text-align: center;
+}
 .div1in{
     width: 25vw;
     height: 6vh;
@@ -156,11 +162,20 @@ footer{
     justify-content: space-between;
 }
 .fop{
+    margin: 10px;
     padding-top: 10px;
     width: 300px;
     font-size: 15px;
-    
+    word-wrap: break-word;
 }
+
+/* ul{
+    white-space: normal;
+    float: left;
+    width: 100%;
+    height: auto;
+    word-wrap: break-word;
+} */
 .fodi1{
     margin: 40px;
 }
