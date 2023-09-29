@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | TourUyo</title>
+    <link rel="stylesheet" href="./Styles/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        .next{
+            margin-top: 40px;
+            display: flex;
+            justify-content: end;
+            margin-right: 40px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav> 
+        <img src="./Assets/20230925_133614.png" alt="logo" height="200px"/>
+        <ul class="ul">
+            <li><a href="./index.html" style="color: #FFB347;">Home</a></li>
+                <li><a href="#aboutus">About</a></li>
+                <li><a href="#ourservices">Services</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="#contactus"><button class="bu">Contact</button></a></li>
+        </ul>
+    </nav>
+    <section class="seclog">
+        <div class="div">
+            <div>
+                <h2 class="foh2">Sign In and Explore</h2>
+                <p class="fop" style="width: 330px;">If you don't have an account please
+                    <a href="./signup.html" style="text-decoration: underline; color: #FFB347;">Register here!</a>
+                </p>
+            </div>
+            
+        </div>
+        
+        <form action="./info.html" class="formL">
+            <h1>Log in</h1>
+            <div class="input">
+                <label for="login"></label>
+                <input type="text email" name="login" id="login" placeholder="Username or Email" required class="div1in" >
+            
+                <label for="access"></label>
+                <input type="password" name="access" id="access" placeholder="Password" required class="div1in x">
+                
+                
+                <input type="submit" value="Submit" class="button">
+            </div>
+        </form>
+        
+        
+    </section>
+    <footer>
+        <section class="fosec">
+            <div class="fodi1" id="aboutus">
+                <h1 class="fooh1">About us</h1>
+                <hr>
+                <!-- <img src="./Assets/icon/Frame 3.svg" alt="logo" height="150px"> -->
+                <p class="fop">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, facere consequatur voluptatibus repudiandae quaerat laboriosam dolore earum .</p>
+            </div>
+            <div class="fodi2" id="ourservices">
+                <h1 class="fooh1">Our services</h1>
+                <hr>
+                <div class="fop">
+                    <ul style="list-style: none;">
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="fodi3" id="contactus">
+                <h1 class="fooh1">Contact Us</h1>
+                <hr>
+                <article class="fop">
+                    <p>example@gmail.com</p>
+                    <p>+234 9012624162</p>
+                    <div>
+                        <label for="search"></label>
+                        <input type="text" id="search" name="search" placeholder="Search" class="ins">
+                        <a href="./info.html"><input type="submit" name="search" id="search" class="artbu"></a>
+
+                        
+
+                    </div>
+                    <div class="di">
+                        <a href="#"><img src="./Assets/icon/Vector.png" alt="logo"></a>
+                        <a href="#"><img src="./Assets/icon/Vector (1).png" alt="logo"></a>
+                        <a href="#"><img src="./Assets/icon/Vector (2).png" alt="logo"></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </footer>
+    
+</body>
+</html>
